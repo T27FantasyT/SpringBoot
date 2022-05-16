@@ -2,7 +2,6 @@ package com.example.lab1_homework.controller;
 
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -52,7 +51,7 @@ public class HomeController {
 
     List<Student> list = new ArrayList<>();
 
-    @RequestMapping(value = "/student", method = RequestMethod.GET)
+    @RequestMapping(value = "/student", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
 
     public List<Student> students(){
@@ -67,6 +66,4 @@ public class HomeController {
 
         return "New student has been added to the students list";
     }
-
-
 }
