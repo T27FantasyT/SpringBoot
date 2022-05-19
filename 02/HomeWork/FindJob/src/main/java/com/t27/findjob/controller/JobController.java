@@ -18,7 +18,7 @@ public class JobController {
         jobs = new ConcurrentHashMap<>();
         jobs.put("1",new Job("1","JavaDev","description", "HaNoi",8000000,14000000,"headhunter@gmail.com"));
         jobs.put("2",new Job("2","frontEnd","description", "HaiPhong",5000000,12000000,"headhungter@gmail.com"));
-        jobs.put("3",new Job("3","SQL","description", "HaNoi",2000000,11000000,"headhungter@gmail.com"));
+        jobs.put("3",new Job("3","SQL","description", "DaNang",2000000,11000000,"headhungter@gmail.com"));
         jobs.put("4",new Job("4","Interm","description", "HoChiMinh",1000000,4000000,"headhungter@gmail.com"));
     }
 
